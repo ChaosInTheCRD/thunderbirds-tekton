@@ -1,0 +1,7 @@
+apiVersion: v2
+name: tekton
+version: 0.2.9
+dependencies:
+  - name: tekton-pipeline
+    version: 0.2.9
+    repository: https://cdfoundation.github.io/tekton-helm-chart/
